@@ -26,7 +26,7 @@ public class Nhan2d {
 				result = new int[m1][n2];
 				for(int i=0; i< m1;i++) {
 					for(int s=0;s<n2;s++) {
-						for(int j=0; j<n2;j++) {
+						for(int j=0; j<n1;j++) {
 							result[i][s] +=arr1[i][j]*arr2[j][s];
 						}
 					}
